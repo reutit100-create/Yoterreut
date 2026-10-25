@@ -1,0 +1,17 @@
+{
+  "name": "יותר רעות – מועדון ההטבות",
+  "short_name": "יותר רעות",
+  "description": "יותר קהילה, יותר הטבות",
+  "lang": "he",
+  "dir": "rtl",
+  "start_url": "./#/",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F2F6F5",
+  "theme_color": "#2D7F74",
+  "icons": [
+    { "src": "img/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "img/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "img/icon-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

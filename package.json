@@ -1,0 +1,24 @@
+{
+  "name": "yoter-reut",
+  "version": "1.0.0",
+  "description": "יותר רעות – מועדון ההטבות הקהילתי",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "start": "node server.js",
+    "build:demo": "node scripts/build-demo.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.3.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  }
+}
