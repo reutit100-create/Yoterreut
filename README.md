@@ -26,6 +26,12 @@ ADMIN_EMAIL=you@example.org ADMIN_PASSWORD='סיסמה-חזקה' npm start
 | `ANTHROPIC_API_KEY` | מפעיל חילוץ פרטים וניסוח שיווקי בעזרת Claude. בלעדיו פועל מנוע חילוץ מקומי |
 | `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET` | חיבור Gmail ב־OAuth |
 
+## העלאה לאוויר
+
+**האתר האמיתי (Render):** בקובץ `render.yaml` מוגדר שרת עם דיסק קבוע לנתונים ולגיבויים. ב־Render בוחרים New ← Blueprint, מחברים את המאגר הזה וממלאים את המשתנים (`APP_URL`, `ADMIN_EMAIL`, `ADMIN_PASSWORD` ובהמשך מפתחות Google ו־Anthropic). אחרי ההעלאה הראשונה מעדכנים את `APP_URL` לכתובת שקיבלתם.
+
+**גרסת ההדגמה (GitHub Pages):** כל דחיפה ל־`main` בונה את קובץ ההדגמה ומפרסמת אותו. צריך להפעיל פעם אחת: Settings ← Pages ← Source: GitHub Actions. בגרסה הזו כל הנתונים נשמרים רק בדפדפן של מי שגולש, כך ששינויים של המנהלת לא מגיעים לאחרים.
+
 ## חיבור Gmail (OAuth, בלי סיסמה)
 
 1. ב־[Google Cloud Console](https://console.cloud.google.com/) יוצרים פרויקט ומפעילים את **Gmail API**.
