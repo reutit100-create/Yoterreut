@@ -30,7 +30,7 @@ ADMIN_EMAIL=you@example.org ADMIN_PASSWORD='סיסמה-חזקה' npm start
 
 **האתר האמיתי (Render):** בקובץ `render.yaml` מוגדר שרת עם דיסק קבוע לנתונים ולגיבויים. ב־Render בוחרים New ← Blueprint, מחברים את המאגר הזה וממלאים את המשתנים (`APP_URL`, `ADMIN_EMAIL`, `ADMIN_PASSWORD` ובהמשך מפתחות Google ו־Anthropic). אחרי ההעלאה הראשונה מעדכנים את `APP_URL` לכתובת שקיבלתם.
 
-**גרסת ההדגמה (GitHub Pages):** כל דחיפה ל־`main` בונה את קובץ ההדגמה ומפרסמת אותו. צריך להפעיל פעם אחת: Settings ← Pages ← Source: GitHub Actions. בגרסה הזו כל הנתונים נשמרים רק בדפדפן של מי שגולש, כך ששינויים של המנהלת לא מגיעים לאחרים.
+**גרסת ההדגמה (GitHub Pages):** כל דחיפה ל־`main` בונה את קובץ ההדגמה ומפרסמת אותו. הקובץ נדחף לענף `gh-pages`, ומשם GitHub Pages מגיש אותו בכתובת https://reutit100-create.github.io/Yoterreut/. בגרסה הזו כל הנתונים נשמרים רק בדפדפן של מי שגולש, כך ששינויים של המנהלת לא מגיעים לאחרים.
 
 ## חיבור Gmail (OAuth, בלי סיסמה)
 
